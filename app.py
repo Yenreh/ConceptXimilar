@@ -152,15 +152,6 @@ if __name__ == '__main__':
     print("Servidor de Demostración Ximilar API - Plan Gratuito")
     print("=" * 60)
     print(f"URL: http://localhost:5001")
-    print("=" * 60)
-    print("\nServicios disponibles:")
-    print("  ✅ Background Removal")
-    print("  ✅ Dominant Colors")
-    print("  ✅ Photo Tagging")
-    print("\nNo disponibles en plan gratuito:")
-    print("  ❌ Fashion Tagging")
-    print("  ❌ Visual Search")
-    print("=" * 60)
-    
+    print("=" * 60)    
     app.run(host='0.0.0.0', port=5001, debug=True)
 
